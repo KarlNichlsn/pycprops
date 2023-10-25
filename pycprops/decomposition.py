@@ -1,5 +1,7 @@
 import warnings
-from astrodendro import Dendrogram, Structure, ppv_catalog
+from astrodendro.dendrogram import Dendrogram
+from astrodendro.analysis import ppv_catalog
+from astrodendro.structure import Structure
 from spectral_cube import SpectralCube
 from skimage.segmentation import watershed, random_walker, relabel_sequential
 from skimage.morphology import disk
