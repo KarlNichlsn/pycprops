@@ -1,4 +1,5 @@
-from astrodendro import Dendrogram, ppv_catalog
+from astrodendro.dendrogram import Dendrogram
+from astrodendro import ppv_catalog
 from spectral_cube import SpectralCube
 from skimage.segmentation import watershed
 from skimage.morphology import disk
